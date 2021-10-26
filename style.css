@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+.container > div{
+  height: 50px;
+  transition-delay: 10000s;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg1 {
+  background: url('./carengine2-after.jpg');
+}
+
+.bg2 {
+  background: url('./carengine2-before.jpg');
+  
+}
+.container > div:hover {
+  background: url('./carengine2-after.jpg');
+  background-repeat: no-repeat;
+  transition: none;
+  background-attachment: fixed;
+}
+
+
+
+
